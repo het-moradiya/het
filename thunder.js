@@ -127,8 +127,7 @@ function Text(options) {
   buffer.fillRect(0, 0, pool.width, pool.height);
 
   this.size = options.size || 100;
-  this.copy = (options.copy || `Het Moradiya
-    = 240905040046`) + ' ';
+  this.copy = (options.copy || `Het Moradiya=240905040046`) + ' ';
   this.color = options.color || '#cd96fe';
   this.delay = options.delay || 5;
   this.basedelay = this.delay;
@@ -237,4 +236,5 @@ function render() {
   });
   //
   loop();
+
 })();
